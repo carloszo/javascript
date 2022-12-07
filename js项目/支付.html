@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>支付界面</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <button>支付</button>
+    <script>
+        document.getElementsByTagName('button')[0].onclick= ()=>{
+            let res = confirm("是否确认支付")
+            if(res){
+                location.href="./倒计时.html"
+            }
+            
+        }
+        console.log(res)
+    </script>
+</body>
+</html>
